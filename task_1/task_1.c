@@ -40,7 +40,7 @@ int main()
 		}
 
 		if (!pid) {
-			y=strtok(x, " -,");
+			y=strtok(x, " ,");
             *(cmd)=y;
 			while (y != NULL) {
 				printf("y: %s", y);
